@@ -11,6 +11,7 @@ from sqlalchemy import create_engine
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
+# create instance of Flask app
 app = Flask(__name__)
 
 
